@@ -15,7 +15,7 @@ export default function Signup() {
   
   return (
     
-    <div>
+    <div data-scroll-section>
       <div className="w-10 h-10 bg-black fixed top-[-50px] left-0"></div>
       <div id="main" className="w-full h-[120vh]  ">
        

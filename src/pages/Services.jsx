@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 function Services() {
   return (
     <>
-    <div id="top" className="w-full h-screen  absolute top-0 left-0 pointer-events-none">
+    <div id="top" data-scroll-section className="w-full h-screen  absolute top-0 left-0 pointer-events-none">
     {/* The Content on the top Starts like the navbar and About Section Content */}
     <div id="workingarea" className="w-[80%] relative m-auto h-screen max-w-[1920px] z-[999]">
       {/* NavBar Component Starts */}

@@ -46,7 +46,7 @@ export default function App() {
   // use effect for the landing page animation initializing Ends
 
   return (
-    <div>
+    <div >
       {/* Main Div Starts */}
       <div id="main" className="w-full h-screen ">
         {/* Back Section For Images Starts */}

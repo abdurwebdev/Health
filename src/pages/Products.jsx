@@ -3,7 +3,7 @@ import MainLayout from '../layout/MainLayout'
 
 function Products() {
   return (
-    <MainLayout>
+    <MainLayout data-scroll-section>
       <div>Products</div>
     </MainLayout>
   )

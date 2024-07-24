@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Marquee from 'react-fast-marquee';
+import { Link } from 'react-router-dom';
 
 function SignUp() {
   // Use State For Active And Unactive Buttons Starts
@@ -221,7 +222,7 @@ function SignUp() {
       <label className="block mb-2" htmlFor="groupNumber">Group Number</label>
       <input type="text" id="groupNumber" name="groupNumber" value={formData.groupNumber} onChange={handleChange} className="w-full p-2 mb-4 border border-gray-300 rounded" />
      <div className='flex items-center justify-center'>
-     <button type='submit' className="button-86 w-full pointer-events-auto p-2 bg-blue-500 text-white rounded" role="button">Submit</button>
+     <button  type='submit' className="button-86 w-full pointer-events-auto p-2 bg-blue-500 text-white rounded" role="button">Submit</button>
      </div>
      
     </form>
@@ -305,7 +306,7 @@ function SignUp() {
       <input type="text" id="clinicAddress" name="clinicAddress" value={doctorData.clinicAddress} onChange={handleDoctorChange} className="w-full p-2 mb-4 border border-gray-300 rounded" required />
 
       <div className='flex items-center justify-center z-[99999] pointer-events-auto'>
-     <button type='submit' className="button-86 w-full pointer-events-auto p-2 bg-blue-500 text-white rounded" role="button">Submit</button>
+      <Link to="/doctor">DOCTOR</Link>
      </div>
     </form>
                 </div>
@@ -367,7 +368,7 @@ function SignUp() {
       </select>
 
       <div className='flex items-center justify-center z-[99999] pointer-events-auto'>
-     <button type='submit' className="button-86 w-full pointer-events-auto p-2 bg-blue-500 text-white rounded" role="button">Submit</button>
+      <Link to="/admin">ADMIN</Link>
      </div>
     
     </form>

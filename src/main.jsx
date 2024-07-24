@@ -11,6 +11,8 @@ import Products from "./pages/Products";
 import Signup from "./pages/Signup";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import Doctor from "./pages/Doctor"
+import Admin from "./pages/Admin";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
   {
     path:"signup",
     element:<Signup/>
+  },
+  {
+    path:"doctor",
+    element:<Doctor/>
+  },
+  {
+    path:"admin",
+    element:<Admin/>
   }
 ]);
 

@@ -39,7 +39,7 @@ function Navbar() {
         <Link className='magnet-target2' to="/signup">SIGN UP</Link>
       </div>
       <div id="nleft" className='flex items-center justify-between gap-4 font-[gilroy]'>
-        <img src="https://cdn.freebiesupply.com/logos/large/2x/ray-ban-logo-png-transparent.png" className="w-24 h-24" alt="" />
+        <h3>HealthCare</h3>
       </div>
       <div className='sm:hidden magnet-target'>
         <button onClick={toggleMenuBar}><Hamburger /></button>
@@ -50,6 +50,8 @@ function Navbar() {
         <Link to="/services">SERVICES</Link>
         <Link to="/contact">CONTACT</Link>
         <Link to="/signup">SIGN UP</Link>
+        <Link to="/doctor">DOCTOR</Link>
+        <Link to="/admin">ADMIN</Link>
       </div>
     </div>
   );
